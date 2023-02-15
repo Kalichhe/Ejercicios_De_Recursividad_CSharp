@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//using System;
+//using System.Collections.Generic;
+//using System.Text;
+//using System.Linq;
+//using System.Threading.Tasks;
 
 namespace Ejercicios_De_Recursividad
 {
@@ -58,6 +58,49 @@ namespace Ejercicios_De_Recursividad
             else
             {
                 return Invertir(str.Substring(1)) + str[0];
+            }
+        }
+        
+        // Fibonacci
+        public static int Fibonacci(int Nro)
+        {
+            if (Nro == 0)
+            {
+                return 0;
+            }
+            else if (Nro == 1)
+            {
+                return 1;
+            }
+            else
+            {
+                return Fibonacci(Nro - 2) + Fibonacci(Nro - 1);
+            }
+        }
+        
+        // Busqueda Binaria
+        
+        public static bool Busqueda_Binaria(List<int> l,int Nro)
+        {
+            if (l.Count() == 0)
+            {
+                return false;
+            }
+            else
+            {
+                int mid = l.Count() / 2;
+                if (l[mid] == Nro)
+                {
+                    return true;
+                }
+                else if (l[mid] > Nro)
+                {
+                    return Busqueda_Binaria(l.GetRange(0, mid), Nro);
+                }
+                else
+                {
+                    return Busqueda_Binaria(l.GetRange(mid + 1, l.Count()),Nro);
+                }
             }
         }
 

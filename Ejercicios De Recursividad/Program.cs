@@ -12,3 +12,9 @@
 // Escriba una función recursiva que invierta un string dado
 //Console.WriteLine(Ejercicios.Invertir("carlos"));
 
+// Fibonacci
+//Console.WriteLine(Ejercicios.Fibonacci(10));
+
+// Busqueda Binaria
+List<int> numeros = new List<int>() {1,2,3,4,5,6,7,8,9};
+Console.WriteLine(Ejercicios.Busqueda_Binaria(numeros,2));
