@@ -31,6 +31,18 @@
 
 Stacks.Push(1);
 Stacks.Push(2);
+Stacks.Push(3);
+Stacks.Push(4);
+Stacks.Push(5);
+Stacks.Push(6);
+Stacks.Push(7);
 
+Stacks.Pop();
+
+Stacks.Top();
+
+Console.WriteLine(Stacks.is_empty());
+
+Console.WriteLine(Stacks.len());
 
 
