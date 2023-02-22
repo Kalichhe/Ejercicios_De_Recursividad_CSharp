@@ -16,5 +16,21 @@
 //Console.WriteLine(Ejercicios.Fibonacci(10));
 
 // Busqueda Binaria
-List<int> numeros = new List<int>() {1,2,3,4,5,6,7,8,9};
-Console.WriteLine(Ejercicios.Busqueda_Binaria(numeros,2));
+//List<int> numeros = new List<int>() {1,2,3,4,5,6,7,8,9};
+//Console.WriteLine(Ejercicios.Busqueda_Binaria(numeros,2));
+
+// Listas con MAYUSCULAS y minusculas
+//List<string> lista = new List<string>() {"CarloS", "marIo"};
+//string lista = "Carlos";
+//List<string> mayusculas = new List<string>() { };
+//List<string> minusculas = new List<string>() { };
+//int index = 0;
+//Console.WriteLine(Ejercicios.MAYUS_minus(lista,mayusculas,minusculas,index));
+
+// Stack
+
+Stacks.Push(1);
+Stacks.Push(2);
+
+
+
