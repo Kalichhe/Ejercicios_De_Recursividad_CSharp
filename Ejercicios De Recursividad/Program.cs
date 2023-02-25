@@ -1,4 +1,5 @@
 ﻿using Ejercicios_De_Recursividad;
+using Ejercicios_De_Recursividad.Queues;
 
 // Escriba una función recursiva que imprima los números desde un número n hasta otro número m descendentemente
 //Console.WriteLine(Ejercicios.Imprimir(9));
@@ -29,20 +30,48 @@
 
 // Stack
 
-Stacks.Push(1);
-Stacks.Push(2);
-Stacks.Push(3);
-Stacks.Push(4);
-Stacks.Push(5);
-Stacks.Push(6);
-Stacks.Push(7);
+//Stacks.Push(1);
+//Stacks.Push(2);
+//Stacks.Push(3);
+//Stacks.Push(4);
+//Stacks.Push(5);
+//Stacks.Push(6);
+//Stacks.Push(7);
+//
+//Stacks.Pop();
+//Stacks.Pop();
+//Stacks.Pop();
+//Stacks.Pop();
+//Stacks.Pop();
+//Stacks.Pop();
+//Stacks.Pop();
+//Stacks.Pop();
+//Stacks.Pop();
+//Stacks.Pop();
+//Stacks.Pop();
+//
+//Stacks.Top();
+//
+//Console.WriteLine(Stacks.is_empty());
+//
+//Console.WriteLine(Stacks.len());
 
-Stacks.Pop();
 
-Stacks.Top();
+// Queue
 
-Console.WriteLine(Stacks.is_empty());
+Queues.enqueue(1);
+Queues.enqueue(2);
+Queues.enqueue(3);
+Queues.enqueue(4);
+Queues.enqueue(5);
+Queues.enqueue(6);
+Queues.enqueue(7);
+Queues.enqueue(8);
+Queues.enqueue(9);
+Queues.enqueue(0);
 
-Console.WriteLine(Stacks.len());
+Queues.dequeue();
 
+Console.WriteLine(Queues.is_empty());
 
+Console.WriteLine(Queues.len());
